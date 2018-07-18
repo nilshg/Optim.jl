@@ -2,7 +2,7 @@
 To show how the Optim package can be used, we minimize the
 [Rosenbrock function](http://en.wikipedia.org/wiki/Rosenbrock_function),
 a classical test problem for numerical optimization. We'll assume that you've already
-installed the Optim package using Julia's package manager.
+installed the Optim package using Julia's package manager
 First, we load Optim and define the Rosenbrock function:
 ```jl
 using Optim
@@ -74,7 +74,7 @@ because of the potentially low accuracy of approximations to the Hessians. Other
 than Newton's method, none of the algorithms provided by the Optim package employ
 exact Hessians.
 
-## Box Constrianed Optimization
+## Box Constrained Optimization
 
 A primal interior-point algorithm for simple "box" constraints (lower and upper bounds) is available. Reusing our Rosenbrock example from above, boxed minimization is performed as follows:
 ```jl
